@@ -1,10 +1,15 @@
-import {Div} from './components/Div'
+import {NavBar} from './components/NavBar'
 
 function App() {
   return (
-    <Div className="App">
-    <h1>Hello antidote</h1>
-    </Div>
+   <NavBar>
+     <ul>
+       <li>hello</li>
+       <li>hi</li>
+       <li>hola</li>
+  
+     </ul>
+   </NavBar>
   );
 }
 
