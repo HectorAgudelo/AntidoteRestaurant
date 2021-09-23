@@ -1,6 +1,6 @@
-import styled from '@emotion/styled';
+import Styled from '@emotion/styled';
 
-export const NavBar = styled.nav`
+export const NavBar = Styled.nav`
   background-color: yellow;
   display: flex;
   flex-direction: column;
