@@ -1,11 +1,11 @@
-import { Navigation } from './components/NavBar/NavBar';
+import { NavigationBar } from './components/NavBar/NavigationBar';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <>
-        <Navigation />
+        <NavigationBar />
       </>
     </Router>
   );
