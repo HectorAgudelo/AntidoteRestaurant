@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import { Navbar, Container, Nav, Stack } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { Logo } from '../Icons/Logo';
+import NavBackGround from '../../image/micro_carbon.png'
 import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 export const NavigationBar = () => {
   return (
-    <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
+    <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark' style={{backgroundImage: `url(${NavBackGround})`, boxShadow: '5px 5px 20px #888888'}}>
       <Container>
         <Navbar.Brand href='#home'>
-          <Logo />
+        <Logo color='#fff' width='80.000000pt' height='80.000000pt' viewBox= '0 0 1023.000000 1024.000000'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-        <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='me-auto' style={{ alignItems: 'center' }}>
-            <Nav.Link href='#features'>About</Nav.Link>
+        <Navbar.Collapse id='responsive-navbar-nav' >
+          <Nav className='me-auto' style={{ alignItems: 'center'}}>
+            <Nav.Link href='#features'>Gallery</Nav.Link>
             <Nav.Link href='#pricing'>Menu</Nav.Link>
             <Nav.Link href='#pricing'>Reservations</Nav.Link>
             <Nav.Link href='#pricing'>Order Online</Nav.Link>
