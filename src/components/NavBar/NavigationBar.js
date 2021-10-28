@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Navbar, Container, Nav, Stack } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 import { Logo } from '../Icons/Logo';
 import NavBackGround from '../../image/micro_carbon.png';
 import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
-import './style.css';
+import './NavigationBar.css';
 
 export const NavigationBar = () => {
   return (
@@ -19,32 +19,39 @@ export const NavigationBar = () => {
       }}
     >
       <Container>
-        <Navbar.Brand href='#home'>
-          <Logo
-            color='#fff'
-            width='80.000000pt'
-            height='80.000000pt'
-            viewBox='0 0 1023.000000 1024.000000'
-          />
-        </Navbar.Brand>
+        <LinkContainer to='/'>
+          <Navbar.Brand >
+            <Logo
+              color='#fff'
+              width='80.000000pt'
+              height='80.000000pt'
+              viewBox='0 0 1023.000000 1024.000000'
+            />
+          </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto' style={{ alignItems: 'center' }}>
-            <Nav.Link className='items' href='#Gallery'>
-              Gallery
-            </Nav.Link>
-            <Nav.Link className='items' href='#Menu'>
-              Menu
-            </Nav.Link>
-            <Nav.Link className='items' href='#Reservations'>
-              Reservations
-            </Nav.Link>
-            <Nav.Link className='items' href='#Order Online'>
-              Order Online
-            </Nav.Link>
-            <Nav.Link className='items' href='#Contact Us'>
-              Contact Us
-            </Nav.Link>
+            <LinkContainer to='/gallery'>
+              <Nav.Link className='items'>
+                Gallery
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/menu'>
+              <Nav.Link className='items'>
+                Menu
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/reservations'>
+              <Nav.Link className='items'>
+                Reservations
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/order-online'>
+              <Nav.Link className='items' >
+                Order Online
+              </Nav.Link>
+            </LinkContainer>
           </Nav>
           <Nav style={{ marginTop: '10px' }}>
             <Stack
@@ -52,10 +59,18 @@ export const NavigationBar = () => {
               gap={4}
               className='justify-content-center'
             >
-              <Nav.Link href='#Facebook'>
+              <Nav.Link
+                href='https://m.facebook.com/Antidote66/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <BsFacebook />
               </Nav.Link>
-              <Nav.Link href='#Instagram'>
+              <Nav.Link
+                href='https://www.instagram.com/antidote__nyc/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <BsInstagram />
               </Nav.Link>
               <Nav.Link href='#Twitter'>

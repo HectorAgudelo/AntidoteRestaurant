@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Badge } from 'react-bootstrap';
 import { Logo } from '../Icons/Logo';
-import './style.css';
+import './OnlineOrder.css';
 
 export const OnlineOrder = () => {
   return (
@@ -68,7 +68,12 @@ export const OnlineOrder = () => {
       >
         <h3>
           <Badge bg='secondary'>
-            <a target='_blank' href='https://get.chownow.com/' rel='noreferrer'>
+            <a
+              className='deliveryLinks'
+              target='_blank'
+              href='https://get.chownow.com/'
+              rel='noreferrer'
+            >
               ChowNow
             </a>
           </Badge>
@@ -76,6 +81,7 @@ export const OnlineOrder = () => {
         <h3>
           <Badge bg='secondary'>
             <a
+              className='deliveryLinks'
               target='_blank'
               href='https://www.ubereats.com/'
               rel='noreferrer'
@@ -87,6 +93,7 @@ export const OnlineOrder = () => {
         <h3>
           <Badge bg='secondary'>
             <a
+              className='deliveryLinks'
               target='_blank'
               href='https://www.seamless.com/'
               rel='noreferrer'
@@ -98,6 +105,7 @@ export const OnlineOrder = () => {
         <h3>
           <Badge bg='secondary'>
             <a
+              className='deliveryLinks'
               target='_blank'
               href='https://www.doordash.com/'
               rel='noreferrer'
