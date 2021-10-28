@@ -1,21 +1,18 @@
 import React from 'react';
 import { Container, Row, Image, Col } from 'react-bootstrap';
-import img4 from '../../image/Resized_20170311_172623.jpg';
 import { Logo } from '../Icons/Logo';
-import background from '../../image/circlePlants.jpg';
 import './style.css';
 
 export const LandingPage = () => {
   return (
     <Container
-      className='img'
       style={{
         display: 'flex',
         flexDirection: 'column',
         margin: 'auto',
         justifyContent: 'center',
         alignItems: 'center',
-        
+
       }}
     >
       <Container
@@ -38,7 +35,7 @@ export const LandingPage = () => {
         style={{
           display: 'flex',
           marginBottom: '5%',
-          marginTop: '5%',
+          marginTop: '0%',
           justifyContent: 'center',
           alignItems: 'center',
         }}
