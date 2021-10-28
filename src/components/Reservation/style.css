@@ -1,0 +1,9 @@
+.mail, h6{
+    outline: none !important;
+    text-decoration: none !important;
+    padding: 2px 1px 0 !important;
+    color: #8E8E8E !important;
+  }
+  a:hover {
+      color: black !important
+  }

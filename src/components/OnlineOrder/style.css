@@ -1,0 +1,9 @@
+a {
+  outline: none !important;
+  text-decoration: none !important;
+  padding: 2px 1px 0 !important;
+  color: lightgray !important;
+}
+a:hover {
+    color: white !important
+}
