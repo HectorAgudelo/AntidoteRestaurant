@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Image, Col } from 'react-bootstrap';
 import { Logo } from '../Icons/Logo';
-import './style.css';
+import './LandingPage.css';
 
 export const LandingPage = () => {
   return (

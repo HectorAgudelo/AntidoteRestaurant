@@ -4,7 +4,7 @@ import { Gallery } from './components/Gallery/Gallery';
 import { LandingPage } from './components/LandingPage/LandingPage';
 import { Reservation } from './components/Reservation/Reservation';
 import { Footer } from './components/Footer/Footer';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './style.css';
 
 function App() {
@@ -12,10 +12,16 @@ function App() {
     <Router>
       <div className='App'>
         <NavigationBar />
-      {/* <Reservation /> */}
-        {/* <OnlineOrder/> */}
-        {/* <Gallery/> */}
-        <LandingPage/>
+        <Switch>
+          <Route exact path='/' component={LandingPage} />
+
+          <Route path='/gallery' component={Gallery} />
+
+          <Route path='/order-online' component={OnlineOrder} />
+
+          <Route path='/reservations' component={Reservation} />
+        </Switch>
+
         <Footer />
       </div>
     </Router>

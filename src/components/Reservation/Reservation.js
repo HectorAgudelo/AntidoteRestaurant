@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Badge } from 'react-bootstrap';
 import { Logo } from '../Icons/Logo';
 import { RiReservedFill } from 'react-icons/ri';
-import './style.css';
+import './Reservation.css';
 
 export const Reservation = () => {
   return (
@@ -42,17 +42,17 @@ export const Reservation = () => {
         }}
       >
         <h3>Reservations</h3>
-        <h6>
+        <h6 className='text'>
           WE ACCEPT RESERVATIONS FOR PARTIES OF ALL SIZES, UP TO A MONTH IN
           ADVANCE.
         </h6>
         <p>Monday-Sunday 11:30am - 10:00pm</p>
         <p>*holiday hours may vary</p>
-        <p>
+        <p className='text'>
           Please call or email us for larger parties or special event requests
         </p>
         <p>(718) 782-2585</p>
-        <a className='mail' href='mailto:antidote@info.com'>
+        <a id='externalLink' className='mail' href='mailto:antidote@info.com'>
           antidote@info.com
         </a>
         <Container
@@ -69,6 +69,7 @@ export const Reservation = () => {
             <Badge bg='secondary' style={{ fontSize: '18px' }}>
               <RiReservedFill style={{ marginRight: '5px' }} />
               <a
+                id='externalLink'
                 target='_blank'
                 href='https://resy.com/?date=2021-10-27&seats=2'
                 rel='noreferrer'
