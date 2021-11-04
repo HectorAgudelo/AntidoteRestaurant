@@ -1,10 +1,44 @@
 import React from 'react';
+import Head from 'next/head';
 import { Container, Badge } from 'react-bootstrap';
 import  Logo  from '../components/Icons/Logo';
 import styles from '../styles/OnlineOrder.module.css';
 
 const OnlineOrder = () => {
   return (
+    <>
+     <Head>
+    <title>Antidote | Order Online</title>
+        <meta
+          name='description'
+          content='Our colorful handmade dim sum , hand pulled noodles are all created by our skillful chefs who were trained in Shanghai.'
+        />
+        <meta
+          name='keywords'
+          content='Antidote, restaurant, asian, chinese, spicy, food, beer, wine, cocktails, sour, dishes, brooklyn, williamsburg, new york, service, tables, indoor, outdoor, kitchen, dining, lunch, brunch, dinner, reservations, takeout, pick up'
+        />
+         <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/apple-touch-icon.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/favicon-32x32.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='/favicon-16x16.png'
+        />
+        <link rel='manifest' href='/site.webmanifest' />
+        <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
+        <meta name='msapplication-TileColor' content='#da532c' />
+        <meta name='theme-color' content='#ffffff'></meta>
+    </Head>
     <Container
       style={{
         display: 'flex',
@@ -116,6 +150,7 @@ const OnlineOrder = () => {
         </h3>
       </Container>
     </Container>
+    </>
   );
 };
 
