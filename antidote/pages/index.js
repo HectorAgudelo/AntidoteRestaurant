@@ -5,6 +5,7 @@ import Logo from '../components/Icons/Logo';
 export default function Home() {
   return (
     <>
+    
       <Head>
         <title>Antidote | Home</title>
         <meta
