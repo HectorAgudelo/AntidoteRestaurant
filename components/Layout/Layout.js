@@ -4,8 +4,8 @@ import { NavigationBar } from '../NavBar/NavigationBar';
 const layoutStyle = {
   display: 'flex',
   flexDirection: 'column',
-  height: '100%',
-  width: '100%',
+  height: '100vh',
+  width: '100vw',
   position: 'absolute',
   top: '0px',
   right: '0px',
