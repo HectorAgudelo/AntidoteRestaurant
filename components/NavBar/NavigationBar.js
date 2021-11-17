@@ -19,14 +19,14 @@ export const NavigationBar = () => {
       }}
     >
       <Container>
-        <Navbar.Brand>
+        {/* <Navbar.Brand>
           <Logo
             color='#fff'
             width='80.000000pt'
             height='80.000000pt'
             viewBox='0 0 1023.000000 1024.000000'
           />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
 
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
