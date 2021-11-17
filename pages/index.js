@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { Container } from 'react-bootstrap';
 import Logo from '../components/Icons/Logo';
-import styles from '../styles/LandingPage.module.css'
+import styles from '../styles/LandingPage.module.css';
 
 export default function Home() {
   return (
@@ -73,18 +73,17 @@ export default function Home() {
           }}
         >
           <p className='text-break' id={styles.text}>
-            Antidote - restaurant and Bar welcomes you at our Williamsburg home:
+            Antidote - restaurant and Bar welcomes you at our Williamsburg home
             66 S 2nd street. At Antidote, we believe in continuous relationship
-            between delicious food and life’s moments of enjoyment. ANTIDOTE IS
-            A OLACE WHERE THE FOOD IS DESIGNED IN Order to please all palates.
+            between delicious food and life’s moments of enjoyment. ANTIDOTE Is
+            A PLACE WHERE THE FOOD IS DESIGNED IN Order to please all palates.
             Our menu is a combination of sophisticated authentic Chinese
             cuisine. Our colorful handmade dim sum, hand pulled noodles are all
             created by our skillful chefs who were trained in Shanghai. Noodle
             soups, dim sum, seafood and house specials like Peking duck join a
             bevy of premium wines and signature cocktails on a menu made to suit
-            any occasion. Noodle soups, dim sum, seafood and house specials like
-            Peking duck join a bevy of premium wines and signature cocktails on
-            a menu made to suit any occasion.
+            any occasion. Our dishes are sourced as locally as possible based on
+            the season.
           </p>
         </Container>
       </Container>
