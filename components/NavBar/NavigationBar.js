@@ -67,9 +67,9 @@ export const NavigationBar = () => {
               >
                 <BsInstagram />
               </Nav.Link>
-              <Nav.Link href='#Twitter'>
+              {/* <Nav.Link href='#Twitter'>
                 <BsTwitter />
-              </Nav.Link>
+              </Nav.Link> */}
             </Stack>
           </Nav>
         </Navbar.Collapse>

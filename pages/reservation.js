@@ -66,7 +66,9 @@ import styles from '../styles/Reservation.module.css';
           viewBox='0 0 1023.000000 1024.000000'
         />
       </Container>
-      <Container
+      <h1 style={{marginTop:'55px'}}>Coming Soon</h1>
+      <h3 style={{marginBottom:'105px', textAlign:'center'}}>Stay tuned through our social media outlets for upcoming updates.</h3>
+      {/* <Container
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -114,7 +116,7 @@ import styles from '../styles/Reservation.module.css';
             </Badge>
           </h3>
         </Container>
-      </Container>
+      </Container> */}
     </Container>
     </>
   );
