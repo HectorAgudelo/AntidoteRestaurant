@@ -73,17 +73,22 @@ export default function Home() {
           }}
         >
           <p className='text-break' id={styles.text}>
-            Antidote - restaurant and Bar welcomes you at our Williamsburg home
-            66 S 2nd street. At Antidote, we believe in continuous relationship
-            between delicious food and life’s moments of enjoyment. Antidote is
-            a place where the food is designed in order to please all palates.
-            Our menu is a combination of sophisticated authentic Chinese
-            cuisine. Our colorful handmade dim sum, hand pulled noodles are all
-            created by our skillful chefs who were trained in Shanghai. Noodle
-            soups, dim sum, seafood and house specials like Peking duck join a
-            bevy of premium wines and signature cocktails on a menu made to suit
-            any occasion. Our dishes are sourced as locally as possible based on
-            the season.
+            <span style={{ fontWeight: 'bold' }}>Antidote</span> - restaurant
+            and bar welcomes you at our Williamsburg home at 66 S 2nd street. At
+            Antidote, we believe in continuous relationship between delicious
+            food and life’s moments of enjoyment. Antidote is a place where the
+            food is designed in order to please all palates. Our menu is a
+            combination of sophisticated authentic Chinese cuisine. Our colorful
+            handmade dim sum, hand pulled noodles are all created by our
+            skillful chefs who were trained in Shanghai. Noodle soups, dim sum,
+            seafood and house specials like Peking duck join a bevy of premium
+            wines and signature cocktails on a menu made to suit any occasion.
+            Our dishes are sourced as locally as possible based on the season.
+            Our special Sichuan and Shanghai style cuisine will offer you the
+            most innovative and delicate selections including with all
+            preliminary hints of our creations, we truly expect your visit as an
+            adventure to explore the great modern Chinese food, and team
+            Antidote is dedicated to ensuring the best of your experience.
           </p>
         </Container>
       </Container>
