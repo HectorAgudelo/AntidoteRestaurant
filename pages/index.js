@@ -63,7 +63,7 @@ export default function Home() {
             viewBox='0 0 1023.000000 1024.000000'
           />
         </Container>
-        <Container
+        {/* <Container
           style={{
             display: 'flex',
             marginBottom: '5%',
@@ -90,7 +90,11 @@ export default function Home() {
             adventure to explore the great modern Chinese food, and team
             Antidote is dedicated to ensuring the best of your experience.
           </p>
-        </Container>
+        </Container> */}
+        <h1 style={{ marginTop: '55px' }}>Coming Soon</h1>
+        <h3 style={{ marginBottom: '105px', textAlign: 'center' }}>
+          Stay tuned through our social media outlets for upcoming updates.
+        </h3>
       </Container>
     </>
   );

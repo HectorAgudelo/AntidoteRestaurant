@@ -31,7 +31,7 @@ export const NavigationBar = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto' style={{ alignItems: 'center' }}>
-            <Link href='/' passHref>
+            {/* <Link href='/' passHref>
               <Nav.Link className={styles.items}>Home</Nav.Link>
             </Link>
             <Link href='/gallery' passHref>
@@ -45,7 +45,7 @@ export const NavigationBar = () => {
             </Link>
             <Link href='/onlineorder' passHref>
               <Nav.Link className={styles.items}>Order Online</Nav.Link>
-            </Link>
+            </Link> */}
           </Nav>
           <Nav style={{ marginTop: '0px' }}>
             <Stack
