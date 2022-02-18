@@ -20,8 +20,12 @@ export const Footer = () => {
         }}
       >
         <h4 className={styles.h4}>Williamsburg, Brooklyn</h4>
-        <p className={styles.p}>66 S 2nd St, Brooklyn, NY 11249</p>
-        <p className={styles.p}>(718) 782-2585</p>
+        <a className={styles.a} href='https://www.google.com/maps?q=66+S+2nd+St,+Brooklyn,+NY+11249,+USA'  target='_blank'
+                rel='noreferrer'><p className={styles.p}>66 S 2nd St, Brooklyn, NY 11249</p></a>
+        <a className={styles.a} href='mailto:management@antidoteny.com' target='_blank'
+                rel='noreferrer'><p className={styles.p}>management@antidoteny.com</p></a>
+        <a className={styles.a} href='tel:7187822585'  target='_blank'
+                rel='noreferrer'><p className={styles.p}>(718) 782-2585</p></a>
         {/* <p className='p'>Monday-Sunday</p>
         <p className='p'>12:00pm-3:00pm</p>
         <p className='p'>5:30pm-10:00pm</p> */}

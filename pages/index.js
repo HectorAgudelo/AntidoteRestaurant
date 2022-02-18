@@ -63,7 +63,7 @@ export default function Home() {
             viewBox='0 0 1023.000000 1024.000000'
           />
         </Container>
-        {/* <Container
+        <Container
           style={{
             display: 'flex',
             marginBottom: '5%',
@@ -73,28 +73,19 @@ export default function Home() {
           }}
         >
           <p className='text-break' id={styles.text}>
-            <span style={{ fontWeight: 'bold' }}>Antidote</span> - restaurant
-            and bar welcomes you at our Williamsburg home at 66 S 2nd street. At
-            Antidote, we believe in continuous relationship between delicious
-            food and life’s moments of enjoyment. Antidote is a place where the
-            food is designed in order to please all palates. Our menu is a
-            combination of sophisticated authentic Chinese cuisine. Our colorful
-            handmade dim sum, hand pulled noodles are all created by our
-            skillful chefs who were trained in Shanghai. Noodle soups, dim sum,
-            seafood and house specials like Peking duck join a bevy of premium
-            wines and signature cocktails on a menu made to suit any occasion.
-            Our dishes are sourced as locally as possible based on the season.
-            Our special Sichuan and Shanghai style cuisine will offer you the
-            most innovative and delicate selections including with all
-            preliminary hints of our creations, we truly expect your visit as an
-            adventure to explore the great modern Chinese food, and team
-            Antidote is dedicated to ensuring the best of your experience.
+            <span style={{ fontWeight: 'bold' }}>Antidote</span> - restaurant and bar welcomes you to our Williamsburg home 66 S 2nd street. 
+
+At Antidote we believe that delicious food is a key factor to the enjoyment of life. Antidote is a place where the food is designed to please all palates. 
+
+Our menu is a combination of sophisticated & authentic Chinese cuisine. All of our ingredients are sourced as locally as possible based on the season. Our special Sichuan and Shanghai style cuisine will offer you the most innovative and delicate selections created by our skillful chefs who were trained in Shanghai. 
+
+Your visit to Antidote will be an adventure in to the exploration of great modern Chinese cuisine.
           </p>
-        </Container> */}
-        <h1 style={{ marginTop: '55px' }}>Coming Soon</h1>
+        </Container>
+        {/* <h1 style={{ marginTop: '55px' }}>Coming Soon</h1>
         <h3 style={{ marginBottom: '105px', textAlign: 'center' }}>
           Stay tuned through our social media outlets for upcoming updates.
-        </h3>
+        </h3> */}
       </Container>
     </>
   );

@@ -123,7 +123,16 @@ const Gallery = () => {
           <Carousel.Item>
             <Image
            layout='responsive'
-              src='/circlePlants.jpg'
+              src='/columntables.jpg'
+              alt='Fifth slide'
+            
+              width={912} height={512}
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image
+           layout='responsive'
+              src='/plantsandpic.jpg'
               alt='Fifth slide'
             
               width={912} height={512}

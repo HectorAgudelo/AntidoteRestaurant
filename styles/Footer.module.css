@@ -13,3 +13,7 @@
   font-size: medium;
   margin-top: 8px;
 }
+
+  .a {
+    text-decoration: none !important;
+  }

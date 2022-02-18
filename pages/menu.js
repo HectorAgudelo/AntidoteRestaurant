@@ -1,15 +1,16 @@
 import Head from 'next/head';
-import { Container } from 'react-bootstrap';
+import { Container, Carousel } from 'react-bootstrap';
 import Logo from '../components/Icons/Logo';
+import Image from 'next/image';
 
-export default function Home() {
+export default function Menu() {
   return (
     <>
       <Head>
-        <title>Antidote | Home</title>
+        <title>Antidote | Menu</title>
         <meta
           name='description'
-          content='ANTIDOTE IS A OLACE WHERE THE FOOD IS DESIGNED IN Order to please all palates. Our menu is a combination of sophisticated authentic Chinese cuisine.'
+          content='Enjoy our beautiful setting, and have a great experience'
         />
         <meta
           name='keywords'
@@ -49,8 +50,8 @@ export default function Home() {
         <Container
           style={{
             display: 'flex',
-            marginBottom: '5%',
-            marginTop: '5%',
+            marginBottom: '3%',
+            marginTop: '3%',
             justifyContent: 'center',
             alignItems: 'center',
           }}
@@ -62,10 +63,55 @@ export default function Home() {
             viewBox='0 0 1023.000000 1024.000000'
           />
         </Container>
-        <h1 style={{ marginTop: '55px' }}>Coming Soon</h1>
-        <h3 style={{ marginBottom: '105px', textAlign: 'center' }}>
-          Stay tuned through our social media outlets for upcoming updates.
-        </h3>
+        <Container
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            marginBottom: '5%',
+            marginTop: '0%',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <h3>Menu</h3>
+          <Carousel
+            variant='dark'
+            fade
+            style={{
+              margin: '10px',
+              width: '100%',
+              boxShadow: '5px 10px 15px 5px #888888',
+            }}
+          >
+            <Carousel.Item>
+              <Image
+                layout='responsive'
+                src='/menu-1.jpg'
+                alt='First slide'
+                width={200}
+                height={300}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image
+                layout='responsive'
+                src='/menu-2.jpg'
+                alt='Second slide'
+                width={200}
+                height={300}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image
+                layout='responsive'
+                src='/menu-3.jpg'
+                alt='Third slide'
+                width={200}
+                height={300}
+              />
+            </Carousel.Item>
+          </Carousel>
+        </Container>
       </Container>
     </>
   );
