@@ -105,7 +105,7 @@ const Gallery = () => {
           <Carousel.Item>
             <Image
             layout='responsive'
-              src='/bar.jpg'
+              src='/drinkFood.jpg'
               alt='Third slide'
           
               width={912} height={512}
@@ -114,7 +114,7 @@ const Gallery = () => {
           <Carousel.Item>
             <Image
              layout='responsive'
-              src='/drinkFood.jpeg'
+              src='/bar.jpeg'
               alt='Fourth slide'
            
               width={912} height={512}
@@ -123,7 +123,7 @@ const Gallery = () => {
           <Carousel.Item>
             <Image
            layout='responsive'
-              src='/cocktails.jpg'
+              src='/plants.jpg'
               alt='Fifth slide'
             
               width={912} height={512}
@@ -132,7 +132,7 @@ const Gallery = () => {
           <Carousel.Item>
             <Image
            layout='responsive'
-              src='/plants.jpg'
+              src='/cocktails.jpg'
               alt='Fifth slide'
             
               width={912} height={512}
