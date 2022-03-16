@@ -89,8 +89,8 @@ import styles from '../styles/Reservation.module.css';
           Please call or email us for larger parties or special event requests
         </p>
         <p>(718) 782-2585</p>
-        <a id={styles.externalLink} className={styles.mail} href='mailto:antidote@info.com'>
-          antidote@info.com
+        <a id={styles.externalLink} className={styles.mail} href='mailto:management@antidoteny.com'>
+        management@antidoteny.com
         </a>
         <Container
           style={{
