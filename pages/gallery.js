@@ -75,6 +75,7 @@ const Gallery = () => {
           alignItems: 'center',
         }}
       >
+        {/* bug on some images */}
         <h3>Gallery</h3>
         <Carousel
           fade
