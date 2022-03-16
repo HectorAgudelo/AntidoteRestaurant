@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/gallery.js"
+    ],
+    "/onlineorder": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/onlineorder.js"
     ]
   },
   "ampFirstPages": []
