@@ -133,7 +133,7 @@ const Gallery = () => {
             <Image
            layout='responsive'
               src='/cocktails.jpg'
-              alt='Fifth slide'
+              alt='Sixth slide'
             
               width={912} height={512}
             />
