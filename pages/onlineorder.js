@@ -64,9 +64,9 @@ const OnlineOrder = () => {
           viewBox='0 0 1023.000000 1024.000000'
         />
       </Container>
-      <h1 style={{marginTop:'55px'}}>Coming Soon</h1>
-      <h3 style={{marginBottom:'105px', textAlign:'center'}}>Stay tuned through our social media outlets for upcoming updates.</h3>
-      {/* <Container
+      {/* <h1 style={{marginTop:'55px'}}>Coming Soon</h1>
+      <h3 style={{marginBottom:'105px', textAlign:'center'}}>Stay tuned through our social media outlets for upcoming updates.</h3> */}
+      <Container
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -102,7 +102,7 @@ const OnlineOrder = () => {
           gap: '10px',
         }}
       >
-        <h3>
+        {/* <h3>
           <Badge bg='secondary'>
             <a
               className={styles.deliveryLinks}
@@ -113,13 +113,13 @@ const OnlineOrder = () => {
               ChowNow
             </a>
           </Badge>
-        </h3>
+        </h3> */}
         <h3>
           <Badge bg='secondary'>
             <a
               className={styles.deliveryLinks}
               target='_blank'
-              href='https://www.ubereats.com/'
+              href='https://www.ubereats.com/store/antidote/yAx6Z3gKWG2VNOfue2VCjA?utm_source=google&utm_medium=organic&utm_campaign=place-action-link'
               rel='noreferrer'
             >
               Uber Eats
@@ -131,10 +131,10 @@ const OnlineOrder = () => {
             <a
               className={styles.deliveryLinks}
               target='_blank'
-              href='https://www.seamless.com/'
+              href='https://www.grubhub.com/restaurant/antidote-66-s-2nd-st-brooklyn/3179635?utm_source=google&utm_medium=organic&utm_campaign=place-action-link'
               rel='noreferrer'
             >
-              Seamless
+              GrubHub
             </a>
           </Badge>
         </h3>
@@ -143,14 +143,14 @@ const OnlineOrder = () => {
             <a
               className={styles.deliveryLinks}
               target='_blank'
-              href='https://www.doordash.com/'
+              href='https://www.doordash.com/store/antidote-williamsburg-22965400/?utm_campaign=gpa'
               rel='noreferrer'
             >
               DoorDash
             </a>
           </Badge>
         </h3>
-      </Container> */}
+      </Container>
     </Container>
     </>
   );

@@ -73,7 +73,7 @@ export default function Menu() {
             alignItems: 'center',
           }}
         >
-          <h3>Menu</h3>
+          {/* <h3>Menu</h3> */}
           <Carousel
             variant='dark'
             fade
@@ -83,31 +83,31 @@ export default function Menu() {
               boxShadow: '5px 10px 15px 5px #888888',
             }}
           >
-            <Carousel.Item>
+            <Carousel.Item interval={30000}>
               <Image
                 layout='responsive'
-                src='/menu-1.jpg'
+                src='/menu1.png'
                 alt='First slide'
-                width={200}
-                height={300}
+                width={150}
+                height={150}
               />
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={30000}>
               <Image
                 layout='responsive'
-                src='/menu-2.jpg'
+                src='/menu2.png'
                 alt='Second slide'
-                width={200}
-                height={300}
+                width={150}
+                height={150}
               />
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={30000}>
               <Image
                 layout='responsive'
-                src='/menu-3.jpg'
+                src='/menu3.png'
                 alt='Third slide'
-                width={200}
-                height={300}
+                width={150}
+                height={150}
               />
             </Carousel.Item>
           </Carousel>
