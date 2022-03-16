@@ -105,7 +105,7 @@ const Gallery = () => {
           <Carousel.Item>
             <Image
             layout='responsive'
-              src='/drinkFood.jpg'
+              src='/drinkFood.jpeg'
               alt='Third slide'
           
               width={912} height={512}
@@ -114,7 +114,7 @@ const Gallery = () => {
           <Carousel.Item>
             <Image
              layout='responsive'
-              src='/bar.jpeg'
+              src='/bar.jpg'
               alt='Fourth slide'
            
               width={912} height={512}
