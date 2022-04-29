@@ -79,7 +79,7 @@ const OnlineOrder = () => {
         <h3>Order Online</h3>
         <p>Delivery & Pick-up options available</p>
         <p>Please call us for further inquiries</p>
-        <p>(917) 261-5963</p>
+        <p>(718) 782-2585</p>
       </Container>
       <hr
         width='100%'

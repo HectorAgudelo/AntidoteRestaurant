@@ -108,7 +108,7 @@ import styles from '../styles/Reservation.module.css';
               <a
                 id={styles.externalLink}
                 target='_blank'
-                href='https://www.exploretock.com/antidotebk?tock_source=tock&tock_medium=search_nav'
+                href='https://resy.com/cities/ny/antidote'
                 rel='noreferrer'
               >
                 Book a Table
